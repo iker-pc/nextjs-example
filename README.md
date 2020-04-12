@@ -1,4 +1,6 @@
-# nextjs-example
+###### *last update: 03/05/2020*
+
+# nextjs-example 
 
 This is a simple project built using the nextjs framework. It has been used as an example to explain some of the relevant features that come within the framework. These features are:
 * File based routing system
@@ -34,7 +36,7 @@ Code Splitting
 Code splitting is a rendering strategy where the JavaScript is split into smaller chunks. This enables sending the minimal code required to provide value upfront, improving page-load times. The rest can be loaded on demand. In this example we can observe how nextjs automatically split the '.js' content based on the pages, that is, each page corresponds to one of these chuncks. When a page is requested, the server sends its code, and then, the browser assembles all fragments.
 
 
-# Usage
+## Usage
 
 1. First of all, clone the repository in the desired directory.
 ```console
