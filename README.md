@@ -5,7 +5,7 @@ This is a simple project built using the nextjs framework. It has been used as a
 * API routes
 * Server Side Rendering (Isomorphic rendering)
 
-There are more features of which a code example was not developed, like the nextjs 'Head' Component, or the AMP support.
+There are more features of which a code example was not developed, like the nextjs 'Head' Component, or the AMP support, among others.
 
 
 File based routing system
@@ -56,8 +56,8 @@ foo@bar:~$ npm install
 foo@bar:~$ npm run build && npm run start
 ```
 
-The application will be served in port 3000.
+The application will be served in port 3000. The main page looks like this:
 
+![Image description](https://raw.githubusercontent.com/iker-pc/nextjs-example/master/Main%20page.png)
 
-
-
+Here we can select between the examples explained above. Code splitting does not have an example itself, but we can see this feature just by looking at the browser's console when change from one page to another. I strongly recomend to open the network tab of the browser's console during the examplem in order to observe the information exchange between the server and the browser.
